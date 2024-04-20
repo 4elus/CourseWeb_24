@@ -1,0 +1,49 @@
+h2:first-child{
+    background-color: blue;
+}
+
+h2:last-child{
+    background-color: red;
+}
+
+h2:nth-of-type(2){
+    background-color: yellow;
+}
+
+h2:hover{
+    background-color: greenyellow;
+    color: azure;
+}
+
+/* li:nth-of-type(even){
+    background-color: green;
+} */
+
+/*li:nth-of-type(odd){
+    background-color: red;
+}*/
+
+a{
+    background-color: red;
+}
+
+div > a{
+    background-color: green;
+}
+
+li{
+    background-color: red;
+}
+
+div li{
+    background-color: purple;
+    border: 2px dashed yellow;
+}
+
+div > ul > li{
+    background-color: brown;
+}
+
+li:hover::before{
+    content: "🍏";
+}

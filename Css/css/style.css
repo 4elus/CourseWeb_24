@@ -1,0 +1,25 @@
+*{
+    color: pink;
+}
+
+h1, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+#style1{
+    text-align: center;
+    color: green;
+}
+
+.my_class{
+    text-align: right;
+    color: blue;
+}
+
+li:nth-of-type(even){
+    background-color: green;
+}
