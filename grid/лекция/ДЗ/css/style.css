@@ -1,0 +1,36 @@
+*{
+    /* '*' задает стили всему веб-документу
+    в данном случае убираем все отступы, установленные браузером поумолчанию  */
+    margin: 0;
+    padding: 0;
+}
+
+.items{
+    height: 400px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%; /*определяем размеры блоков*/ /*25% 25% 25% 25%*/
+    gap: 10px 5px;  /*отступы между блоками*/ /*minmax(120px, 25%) - функция, которая определяет минимальную и максимальную величину блока*/
+   
+}
+
+.item{
+    /* width: 100px;
+    height: 100px; */
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
