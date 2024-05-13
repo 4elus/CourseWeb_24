@@ -1,0 +1,27 @@
+*{
+    color: azure;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: repeat(3, 100px);
+    gap: 16px;
+}
+
+.header{
+    grid-column: 1 / 4;
+    background-color: rgb(49, 40, 40);
+}
+
+.sidebar-left, .sidebar-right, .content, .footer{
+    background-color: rgb(49, 40, 40);
+}
+
+.sidebar-left, .sidebar-right, .content{
+    grid-row: 2 / 34;
+}
+
+.footer{
+    grid-column: 1 / 4;
+}
