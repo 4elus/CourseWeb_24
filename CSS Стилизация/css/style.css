@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+h1{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.line{
+    margin-left: 2.1em;
+    margin-right: 1.2em;
+    border-bottom: 5px solid blue;
+    margin-bottom: 1em;
+}
+/* 1em = 16px */
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+img{
+    width: 330px;
+    margin-left: 2em;
+}
+
+
