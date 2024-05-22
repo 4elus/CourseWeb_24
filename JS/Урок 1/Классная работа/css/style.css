@@ -1,0 +1,13 @@
+ol{
+    margin-top: 20px;
+}
+li{
+    margin-top: 10px;
+}
+li:nth-of-type(even){
+    background-color: purple;
+}
+
+li:nth-of-type(odd){
+    background-color: orange;
+}
